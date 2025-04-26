@@ -1,7 +1,8 @@
-package ru.netology;
+package ru.netology.Page;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.support.FindBy;
+import ru.netology.Data.DataHelper;
 
 import static com.codeborne.selenide.Selenide.page;
 

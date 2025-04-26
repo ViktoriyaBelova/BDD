@@ -1,8 +1,7 @@
-package ru.netology;
+package ru.netology.Data;
 
 import lombok.Value;
 
-import java.net.Authenticator;
 import java.util.Random;
 
 public class DataHelper {

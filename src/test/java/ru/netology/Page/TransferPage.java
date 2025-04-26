@@ -1,6 +1,7 @@
-package ru.netology;
+package ru.netology.Page;
 
 import com.codeborne.selenide.SelenideElement;
+import ru.netology.Data.DataHelper;
 
 import java.time.Duration;
 
@@ -8,7 +9,6 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.atBottom;
 
 public class TransferPage {
 
